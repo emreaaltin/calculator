@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    color: white;
+    background-color: black;
+}
+/* HESAP MAKİNESİ */
+table{
+    margin: auto;
+    margin-top: 13%;
+    width: 350px;
+    height: 350px;
+    /* border: 2px solid rgb(40, 40, 40); */
+    border-spacing: 7px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+}
+table .btn{
+    width: 15px;
+    line-height: 300%;
+    /* font-size: 100%; */
+    border-radius: 25px;
+    padding: 10px;
+
+}
+table .btn:hover{
+    cursor: pointer;
+    background-color: rgb(201, 197, 197);
+    color: black;
+}
+td{
+    background-color: gray;
+    /* text-align: right; */
+    
+}
+
+#islem,#gosterge{
+    background-color: rgb(110, 107, 103);
+    padding: 3%;
+    border-radius: 9px;
+    text-align: right;
+}
+#islem{
+    height: 45px;
+    font-size: 25px;
+}
+table .opr,.btnC,.btnCE,.btnrakam,.btnnokta,.esit{
+    background-color: orange;
+}
